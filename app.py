@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hello from Flask on IIS!"
+    return "Hello from Flask on IIS!2"
 
 # This is required for IIS deployment
 if __name__ == '__main__':
